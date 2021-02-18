@@ -1,0 +1,40 @@
+{
+  "paired_reads": [
+    {
+      "SRR1020524": {
+        "1": "s3://rand-dev/toil-methylseq/SRR1020524/SRR1020524.2_1.fastq.gz",
+        "2": "s3://rand-dev/toil-methylseq/SRR1020524/SRR1020524.2_2.fastq.gz"
+      }
+    },
+    {
+      "SRR1020525": {
+        "1": "s3://rand-dev/toil-methylseq/SRR1020525/SRR1020525_1.fastq.gz",
+        "2": "s3://rand-dev/toil-methylseq/SRR1020525/SRR1020525_2.fastq.gz"
+      }
+    },
+    {
+      "SRR1020526": {
+        "1": "s3://rand-dev/toil-methylseq/SRR1020526/SRR1020526_1.fastq.gz",
+        "2": "s3://rand-dev/toil-methylseq/SRR1020526/SRR1020526_2.fastq.gz"
+      }
+    },
+    {
+      "SRR1020527": {
+        "1": "s3://rand-dev/toil-methylseq/SRR1020527/SRR1020527_1.fastq.gz",
+        "2": "s3://rand-dev/toil-methylseq/SRR1020527/SRR1020527_2.fastq.gz"
+      }
+    },
+    {
+      "SRR1020528": {
+        "1": "s3://rand-dev/toil-methylseq/SRR1020528/SRR1020528_1.fastq.gz",
+        "2": "s3://rand-dev/toil-methylseq/SRR1020528/SRR1020528_2.fastq.gz"
+      }
+    }
+  ],
+  "bins": 16,
+  "s3_output": "s3://rand-dev/run-results/toil-methylseq/SRR1020524-8_2",
+  "apps_image": "public.ecr.aws/x0s3l6e3/toil_methylseq_apps:latest",
+  "utils_image": "public.ecr.aws/x0s3l6e3/toil_methylseq_utils:latest",
+  "bismark_genome_index": "s3://ngi-igenomes/igenomes/Homo_sapiens/NCBI/GRCh38/Sequence/BismarkIndex/Bisulfite_Genome/",
+  "bismark_reference_genome_fasta": "s3://ngi-igenomes/igenomes/Homo_sapiens/NCBI/GRCh38/Sequence/BismarkIndex/genome.fa"
+}

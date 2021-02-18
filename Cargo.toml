@@ -1,0 +1,21 @@
+[package]
+name = "toil-methylseq-utils"
+version = "0.1.0"
+authors = ["Arthur Rand <art.rand@nooma.bio>"]
+edition = "2018"
+
+[[bin]]
+name = "tmu"
+path = "src/main.rs"
+
+[dependencies]
+bio = "0.32.0"
+rust-htslib = "0.36.0"
+fasthash = "0.4.0"
+rand = "0.8.3"
+clap = "2.33.3"
+env_logger = "0.8.3"
+log = "0.4.14"
+flate2 = "1.0.22"
+serde = "1.0.118"
+serde_json = "1.0.61"

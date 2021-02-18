@@ -1,0 +1,9 @@
+/target
+.idea/*
+.pytest_cache/*
+.idea
+.pytest_cache
+exclude-file.txt
+__pycache__
+__pycache__/*
+Cargo.lock
